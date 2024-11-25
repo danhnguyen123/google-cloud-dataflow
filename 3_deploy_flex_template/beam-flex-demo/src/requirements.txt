@@ -1,0 +1,2 @@
+requests
+apache-beam[gcp]==2.60.0

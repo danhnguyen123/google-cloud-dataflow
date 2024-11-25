@@ -1,0 +1,12 @@
+BUCKET="project_place_holder_text"
+echo $BUCKET
+PROJECT="project_place_holder_text"
+echo $PROJECT
+REGION="region_place_holder_text"
+echo $REGION
+
+export GOOGLE_APPLICATION_CREDENTIALS=/home/danhnguyen/workspace/project/dataflow/service-account.json
+cd /home/danhnguyen/workspace/project/dataflow/3_deploy_flex_template/beam-flex-demo
+gcr.io/cloud-dataflow/v1beta3/beam_python3.10_sdk:2.58.1
+
+# --disable-public-ips \
